@@ -342,4 +342,7 @@ show_predictions(test_batches,3)
 eval = model.evaluate(test_batches)
 print(f" Loss : {eval[0]:.2f}\n IoU : {eval[1]:.2f}\n Accuracy : {eval[2]:.2f}\n")
 
+model.save('saved_models.h5')
+
+
 # %%
