@@ -9,7 +9,7 @@
 
 
 # Image Segmentation for Identifying Nuclei in Microscopy Images Using Deep Learning Model
- Image segmentation of cell nueclei
+ Image segmentation of cell nuclei
 
 ## Project description
 
@@ -52,7 +52,9 @@ These are steps used to complete this project.
 <p align="center"><img src = "Resources/deploy.PNG"></p>    
     
      The model accuracy is at 96%, with a loss of 0.09 and IoU of 0.77
-    
+     
+<p align="center"><img src = "Resources/evaluation.PNG"></p> 
+ 
 <p align="center"><img src = "Resources/tb_acc.PNG"></p> 
 <p align="center"><img src = "Resources/tb_iou_loss.PNG"></p>
     
